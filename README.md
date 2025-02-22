@@ -11,9 +11,11 @@
 
 ## Running the project
 
-- Open the docker-compose.yml file and set the following environment variable: environment:
-     										 - OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>
-- In the project root directory run: docker-compose up
+- Open the docker-compose.yml file and set the following environment variable:
+  		environment:
+		 - OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>
+- In the project root directory run:
+  	docker-compose up
 
 
 
@@ -21,18 +23,26 @@
 
 - Close the repository: git clone <repository-url>
    			cd playwright-project
-- Install dependencies: npm install
-- Run tests: npx playwright test
-- Generate allure report: allure generate allure-results --clean -o allure-report
-- Open report: allure open allure-report
+- Install dependencies:
+  	npm install
+- Run tests:
+  	npx playwright test
+- Generate allure report:
+  	allure generate allure-results --clean -o allure-report
+- Open report:
+  	allure open allure-report
 
 
 ## Running tests in docker
 
-- Build docker image: docker build --no-cache -t my-playwright-tests .
-- Run docker container: docker run --rm --network="host" -v "$(pwd)/allure-results:/app/allure-results" my-playwright-tests
-- Generate allure report: allure generate allure-results --clean -o allure-report
-- Open report: allure open allure-report
+- Build docker image:
+  	docker build --no-cache -t my-playwright-tests .
+- Run docker container:
+  	docker run --rm --network="host" -v "$(pwd)/allure-results:/app/allure-results" my-playwright-tests
+- Generate allure report:
+  	allure generate allure-results --clean -o allure-report
+- Open report:
+  	 allure open allure-report
 
 
 
