@@ -65,10 +65,22 @@ Disadvantages:
 	-   A step to delete the files is added at the end of each test. But if a test fails before reaching the step, the file is still there and can affect later tests.
 
 
-3. Reference Display
+3. /documents/upload/ API 4xx Error
+	- /documents/upload/ endpoint always returns a 4xx error during Playwright tests, even though the file is successfully uploaded
+	- Steps to replicate:
+		-  Run the file upload process in any test
+  		- See that the API call to /documents/upload returns a 4xx error.
+  		- Manually verify that the file is indeed uploaded
+	- For the purpose of test validation, relying on the /documents endpoint to verify successful file upload and ignore the 4xx error from /documents/upload/
+
+
+4. Reference Display
 	- When one page document is uploaded, the reference page is displayed as page 0
 	- Steps to replicate:
 		- Upload file that has only one page
 		- See  the reference for the file: page 0
+
+
+
 
 
