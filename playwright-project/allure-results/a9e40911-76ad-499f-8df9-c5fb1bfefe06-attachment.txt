@@ -1,0 +1,12 @@
+Uploading file from: /app/tests/documents/diabetes.pdf
+Uploaded file ID: 67ba05a2226726173886e4bc
+Documents API response: [
+  {
+    created_at: '2025-02-22T17:13:06.497000',
+    updated_at: '2025-02-22T17:13:06.497000',
+    deleted: false,
+    id: '67ba05a2226726173886e4bc',
+    filename: 'diabetes.pdf',
+    processed: false
+  }
+]

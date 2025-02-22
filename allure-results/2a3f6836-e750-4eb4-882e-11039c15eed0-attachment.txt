@@ -1,0 +1,11 @@
+Uploaded file ID: 67b9b106ae4c9eadce5e2be3
+Documents API response: [
+  {
+    created_at: '2025-02-22T11:12:06.658000',
+    updated_at: '2025-02-22T11:12:06.658000',
+    deleted: false,
+    id: '67b9b106ae4c9eadce5e2be3',
+    filename: 'diabetes.pdf',
+    processed: false
+  }
+]

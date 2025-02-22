@@ -1,0 +1,20 @@
+Uploaded file ID: 67b9b0d6ae4c9eadce5e2be1
+Uploaded file ID: 67b9b0daae4c9eadce5e2be2
+Documents API response: [
+  {
+    created_at: '2025-02-22T11:11:18.583000',
+    updated_at: '2025-02-22T11:11:18.583000',
+    deleted: false,
+    id: '67b9b0d6ae4c9eadce5e2be1',
+    filename: 'diabetes.pdf',
+    processed: false
+  },
+  {
+    created_at: '2025-02-22T11:11:22.765000',
+    updated_at: '2025-02-22T11:11:22.765000',
+    deleted: false,
+    id: '67b9b0daae4c9eadce5e2be2',
+    filename: 'melanoma.pdf',
+    processed: false
+  }
+]

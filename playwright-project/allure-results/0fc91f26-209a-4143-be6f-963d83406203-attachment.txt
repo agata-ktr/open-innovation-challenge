@@ -1,0 +1,20 @@
+Uploading file from: /app/tests/documents/diabetes.pdf
+Uploaded file ID: 67ba06cb226726173886e4d3
+Documents API response: [
+  {
+    created_at: '2025-02-22T17:17:46.469000',
+    updated_at: '2025-02-22T17:17:46.469000',
+    deleted: false,
+    id: '67ba06ba226726173886e4d0',
+    filename: 'melanoma.pdf',
+    processed: false
+  },
+  {
+    created_at: '2025-02-22T17:18:03.961000',
+    updated_at: '2025-02-22T17:18:03.961000',
+    deleted: false,
+    id: '67ba06cb226726173886e4d3',
+    filename: 'diabetes.pdf',
+    processed: false
+  }
+]

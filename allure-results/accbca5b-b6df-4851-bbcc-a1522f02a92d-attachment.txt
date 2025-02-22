@@ -1,0 +1,20 @@
+Uploading file from: C:\Users\agata\Desktop\OpenInnovationChallenge\playwright-project\tests\documents\diabetes.pdf
+Uploaded file ID: 67ba084a226726173886e4e1
+Documents API response: [
+  {
+    created_at: '2025-02-22T17:24:26.175000',
+    updated_at: '2025-02-22T17:24:33.313000',
+    deleted: false,
+    id: '67ba084a226726173886e4e1',
+    filename: 'diabetes.pdf',
+    processed: true
+  },
+  {
+    created_at: '2025-02-22T17:25:24.587000',
+    updated_at: '2025-02-22T17:25:24.587000',
+    deleted: false,
+    id: '67ba0884226726173886e4e3',
+    filename: 'diabetes.pdf',
+    processed: false
+  }
+]
